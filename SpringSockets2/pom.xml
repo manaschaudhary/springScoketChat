@@ -72,24 +72,6 @@
 			<version>3.14</version>
 		</dependency>
 	</dependencies>
-	<build>
-		<plugins>
-			<plugin>
-				<artifactId>maven-dependency-plugin</artifactId>
-				<executions>
-					<execution>
-						<phase>install</phase>
-						<goals>
-							<goal>copy-dependencies</goal>
-						</goals>
-						<configuration>
-							<outputDirectory>D:/_projects/laptop/LMS/repository/branches/java-ui/lib</outputDirectory>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
-	</build>
 	<artifactId>SpringSockets</artifactId>
 	<name>SpringSockets</name>
 </project>
